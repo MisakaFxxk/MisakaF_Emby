@@ -6,7 +6,7 @@
 
 
 
-#### [账号注册机器人](https://github.com/MisakaFxxk/MisakaF_Emby/blob/main/create/%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C.md)
+#### [账号注册机器人](https://github.com/MisakaFxxk/MisakaF_Emby/blob/main/create)
 
 
 
