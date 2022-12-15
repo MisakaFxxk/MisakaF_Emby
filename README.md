@@ -18,4 +18,8 @@
 
 
 
+#### [页面底部插入第三方播放器跳转链接](https://github.com/MisakaFxxk/MisakaF_Emby/tree/main/ExternalUrl)
+
+
+
 交流社群：https://t.me/MisakaF_Emby
