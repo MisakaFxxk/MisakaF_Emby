@@ -1,6 +1,6 @@
 # MisakaF Emby 开源仓库
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=MisakaFxxk)](https://git.io/streak-stats)
+![MisakaF's GitHub stats](https://github-readme-stats.vercel.app/api?username=MisakaFxxk&show_icons=true)
 
 #### 如有用请star，如需修改请fork后pull，为防github发疯删号，有条件的也请多fork留种。
 
