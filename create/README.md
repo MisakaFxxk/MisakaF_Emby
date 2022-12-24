@@ -23,7 +23,7 @@
 1、将项目克隆到本地
 
 ```
-git clone https://github.com/MisakaF0406/MisakaF_Emby.git && cd MisakaF_Emby/create && pip3 install -r requirements.txt
+git clone https://github.com/MisakaFxxk/MisakaF_Emby.git && cd MisakaF_Emby/create && pip3 install -r requirements.txt
 ```
 
 1、找[BOTfather](https://t.me/BotFather)申请一个API。进入Emby后台，找到高级-API密钥，生成一个API。
