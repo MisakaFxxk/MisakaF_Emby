@@ -115,7 +115,7 @@ rclone mount googledrive: /mnt/googledrive --allow-other --allow-non-empty --cac
 自己上网查找安装，教程太多不再赘述
 
 ```
-git clone https://github.com/MisakaF0406/MisakaF_Emby.git && cd MisakaF_Emby/tvshows/anime && pip3 install -r requirements.txt
+git clone https://github.com/MisakaFxxk/MisakaF_Emby.git && cd MisakaF_Emby/tvshows/anime && pip3 install -r requirements.txt
 ```
 
 
