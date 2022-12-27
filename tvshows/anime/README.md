@@ -2,7 +2,7 @@
 
 本文所有教程基于root用户，默认git clone后文件夹地址为：/root/MisakaF_Emby
 
-自动重命名支持所有字幕组。自动重命名部分，调用了[Rename](https://github.com/Nriver/Episode-ReName)项目，如有不适，还请邮件通知到：misakaf@misakaf.xyz。
+自动重命名支持所有字幕组。自动重命名部分，调用了[Rename](https://github.com/Nriver/Episode-ReName)项目，如有不适，还请邮件通知到：admin@misakaf.org。
 
 ### 环境准备
 
