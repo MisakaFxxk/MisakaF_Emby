@@ -58,7 +58,7 @@ if ($check3 = "yesyesyesyes")
 
 首先创建一个名为`infuse`的数据库，然后创建一个名为`metadata`的表，表内结构如下，也可直接使用文件夹内的metadata.sql来导入表结构。
 
-![image-20230307091348630](C:\Users\ChengYifei\AppData\Roaming\Typora\typora-user-images\image-20230307091348630.png)
+![image-20230307091348630](https://pic.888888.al/i/2023/03/07/f8ewmg.png)
 
 ### 四、Python配置
 
