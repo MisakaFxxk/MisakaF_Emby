@@ -22,7 +22,7 @@
 
 
 
-#### [Infuse扫库优化](https://github.com/MisakaFxxk/MisakaF_Emby/tree/main/infuse)
+#### [Infuse扫库优化](https://github.com/MisakaFxxk/MisakaF_Emby/tree/main/Infuse)
 
 
 
