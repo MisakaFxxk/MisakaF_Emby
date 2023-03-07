@@ -22,4 +22,8 @@
 
 
 
+#### [Infuse扫库优化](https://github.com/MisakaFxxk/MisakaF_Emby/tree/main/infuse)
+
+
+
 交流社群：https://t.me/MisakaF_Emby
