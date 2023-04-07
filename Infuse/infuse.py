@@ -139,13 +139,19 @@ def update(user_id):
             #向Infuse客户端返回
             return resjson,200,{"Content-Type":"application/json; charset=utf-8","Access-Control-Allow-Headers": "Accept, Accept-Language, Authorization, Cache-Control, Content-Disposition, Content-Encoding, Content-Language, Content-Length, Content-MD5, Content-Range, Content-Type, Date, Host, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Origin, OriginToken, Pragma, Range, Slug, Transfer-Encoding, Want-Digest, X-MediaBrowser-Token, X-Emby-Token, X-Emby-Client, X-Emby-Client-Version, X-Emby-Device-Id, X-Emby-Device-Name, X-Emby-Authorization","Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS","Access-Control-Allow-Origin": "*"}
         finally:
-            #向数据库追加新数据
-            data = json.dumps(resjson,ensure_ascii=False)
-            try: 
-                sql = "insert into metadata (ParentId,StartIndex,IncludeItemTypes,data) values ({ParentId},{StartIndex},'{IncludeItemTypes}','{data}')".format(ParentId=ParentId,StartIndex=StartIndex,IncludeItemTypes=IncludeItemTypes,data=escape_string(data))
-                result = my_mysql.create(sql)
-            except Exception as e:
-                print(e,"flag2")
+            #判断是否为不完整数据
+            length = len(resjson["Items"])
+            if length == 200:
+                #完整数据，向数据库追加新数据
+                data = json.dumps(resjson,ensure_ascii=False)
+                try: 
+                    sql = "insert into metadata (ParentId,StartIndex,IncludeItemTypes,data) values ({ParentId},{StartIndex},'{IncludeItemTypes}','{data}')".format(ParentId=ParentId,StartIndex=StartIndex,IncludeItemTypes=IncludeItemTypes,data=escape_string(data))
+                    result = my_mysql.create(sql)
+                except Exception as e:
+                    print(e,"flag2")
+            else:
+                #非完整数据，不导入数据库
+                print("数据不完整，skip!")     
     else:
         #数据库中已存在
         print("命中")
