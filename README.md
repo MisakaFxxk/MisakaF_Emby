@@ -2,7 +2,7 @@
 
 ![github](https://badgen.net/github/stars/MisakaFxxk/MisakaF_Emby)  ![github](https://badgen.net/github/forks/MisakaFxxk/MisakaF_Emby)
 
-#### 如有用请star，如需修改请fork后pull，为防github发疯删号，有条件的也请多fork留种。
+#### 如有用请star，如需修改请提交pr，为防github发疯删号，有条件的也请多fork留种。
 
 
 
