@@ -10,6 +10,10 @@
 
 
 
+#### [账号注册机器人（Golang）](https://github.com/MisakaFxxk/Go_Telegram_bot)
+
+
+
 #### [追剧更新自动化](https://github.com/MisakaFxxk/MisakaF_Emby/tree/main/tvshows/anime)
 
 
